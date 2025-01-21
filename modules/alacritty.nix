@@ -48,7 +48,7 @@ in {
         if [ ! -f alacritty.toml ]; then
           cp -f alacritty-dark.toml alacritty.toml
         fi
-        sudo chown torgeir ${config.xdg.configHome}/alacritty/alacritty-toggle-appearance
+        sudo chown jqwang ${config.xdg.configHome}/alacritty/alacritty-toggle-appearance
         sudo chmod u+x ${config.xdg.configHome}/alacritty/alacritty-toggle-appearance
       '';
     } else {

@@ -1,5 +1,5 @@
 {
-  description = "torgeir/nix-home-manager";
+  description = "jiaqiwang969/nix-home-manager";
 
   inputs = { };
 

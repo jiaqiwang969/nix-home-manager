@@ -37,7 +37,7 @@ in {
       # https://github.com/notohh/snowflake/blob/master/home/firefox/default.nix
       package = cfg.package;
       # open -na Firefox
-      profiles.torgeir = {
+      profiles.jqwang = {
         id = 0;
         settings = {
           # support userChrome.css

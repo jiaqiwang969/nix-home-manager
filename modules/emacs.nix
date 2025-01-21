@@ -111,7 +111,7 @@ in {
 
           # cannot find git, cannot find emacs
           export PATH="$PATH:/run/current-system/sw/bin"
-          export PATH="$PATH:/etc/profiles/per-user/torgeir/bin"
+          export PATH="$PATH:/etc/profiles/per-user/jqwang/bin"
 
           if command -v emacs; then
             # not already installed
