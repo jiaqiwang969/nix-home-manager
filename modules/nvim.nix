@@ -17,8 +17,10 @@ in {
 
       # alias vim=nvim
       vimAlias = true;
-
-      extraConfig = (builtins.readFile ./config/vim/vimrc);
+      extraConfig = ''
+        set clipboard=unnamed  " 共享剪贴板
+        ${builtins.readFile ./config/vim/vimrc}
+      '';
 
       # https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/editors/vim/plugins/vim-plugin-names
       plugins = with pkgs.vimPlugins; [
